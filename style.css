@@ -1,0 +1,252 @@
+.header{
+    background-color: rgb(19, 122, 232);
+    padding: 10px;
+    color: #fff;
+    height: 170px;
+    width: 2420px;
+    bottom: 15px;
+    left: 0px;
+}
+
+.header-logo{
+    font-size: 50px;
+    float: left;
+    padding: 40px 60px;
+}
+body{
+    background-color: skyblue;
+}
+
+input[type="checkbox"]{
+    position: relative;
+    width: 40px;
+    height: 20px;
+    appearance: none;
+    background-color: rgb(35, 34, 105);
+    outline: none;
+    border-radius: 10px;
+    transition: .5s ease;
+    cursor: pointer;
+}
+
+input[type="checkbox"]:checked{
+    background-color: rgb(37, 69, 102);
+}
+
+input[type="checkbox"]::before{
+    content: '';
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    background-color: #fff;
+    border-radius: 50%;
+    top:2px;
+    left: 2px;
+    transition: .5s ease;
+}
+
+input[type="checkbox"]:checked::before{
+    transform: translateX(20px);
+}
+
+.dark{
+    background-color: rgb(32, 29, 69);
+    color: aliceblue;
+}
+
+
+.navbar{
+    float: left;
+    list-style: none;
+    padding: 3px 25px;
+    font-size: 25px;
+}
+
+.li{
+    list-style: none;
+}
+
+.main{
+    padding: 150px;
+}
+
+.copy-container h1{
+    font-size: 50px;
+}
+
+.copy-container span{
+    color: #374e9b;
+}
+
+.search-area{
+    width: 1200px;
+    height: 40px;
+    background: #fff;
+    border-radius: 10px;
+    padding-left: 10px;
+    box-shadow: 19px 21px 53px rgba (46, 46, 46, 0.66);
+
+}
+
+.search-btn{
+    width: 120px;
+    height: 40px;
+    border-radius: 0px 10px 10px 0px;
+    color: #fff;
+    cursor: pointer;
+    background-color: rgb(56, 53, 53);
+    margin-left: 30px;
+    margin-top: 0.2px;
+    box-shadow: 0px 21px 53px rgba(46, 46, 46, 0.66);
+}
+
+.search-btn:hover{
+    transition: all .5s ease;
+    background-color:white;
+    box-shadow: 0px 21px 53px rgba(46, 46, 46, 0.66);
+}
+
+.contents{
+    height: 500px;
+    margin-top: 100px;
+}
+.section-tittle{
+    border-bottom: 2px solid #dee7ec;
+    font-size: 28px;
+    padding-bottom: 15px;
+    margin-bottom: 50px;
+}
+
+.contents-item{
+    float: left;
+    margin-right: 40px;
+}
+
+.contents-item p{
+    margin-top: 30px;
+    font-size: 24px;
+}
+
+
+
+
+.contact-about{
+    padding-top: 100px;
+}
+
+.about-info{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.footer{
+    background-color: #304874;
+    color: #fff;
+    height: 50px;
+    padding-bottom: 20px;
+    margin: 40px;
+    width: 100%;
+    text-align: center;
+    padding: 40px;
+
+
+}
+
+.footer-logo{
+    font-size: 20px;
+    padding-bottom: 20px;
+
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: linear-gradient(to top right, rgb(51, 51, 214), rgb(233, 80, 233));
+}
+
+.container {
+    width: 50%;
+    padding: 5%;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    background-color: white;
+    border-radius: 25px;
+
+    font-size: medium;
+    font-family: 'Poppins', sans-serif;
+}
+
+h2 {
+    text-align: center;
+}
+
+.form {
+    padding-top: 30px;
+}
+
+.input {
+    margin: 10px 0px;
+    padding: 10px 5px;
+    width: 95%;
+}
+
+.submit {
+    margin-top: 10px;
+    padding: 10px;
+    width: 97%;
+    border: 1px solid;
+    border-radius: 50px;
+
+    font-size: medium;
+
+    background-color: mediumseagreen;
+    color: white;
+}
+
+.submit:hover {
+    background-color: seagreen;
+}
+
+.regis a{
+    text-decoration: none;
+    color: blue;
+}
+
+.login {
+    display: flex;
+    margin-top: 10%;
+    margin-bottom: 13%;
+}
+
+.login a {
+    text-decoration: none;
+    color: blue;
+}
+
+.login .input {
+    border: 1px solid white;
+    border-radius: 50px;
+    padding-left: 10px;
+
+    background-color: rgb(198, 198, 198);
+    color: rgb(59, 59, 59);
+}
+
+.login h3 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.halaman .header{
+    font-size:large;
+    margin-top: auto;
+    background-color: aqua;
+
+}
